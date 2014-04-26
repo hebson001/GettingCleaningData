@@ -4,6 +4,7 @@ The tidyData dataset created by the run_analysis.R script is made up of the foll
 
 # ID Variables
 Subject - Volunteers, numbered 1-30
+
 Activity - 6 activites(Walking, Walking Upstairs, Walking Downstairs, Sitting Standing, Laying), measured by smartphone
 
 # Other Variables
@@ -17,26 +18,45 @@ These signals were used to estimate variables of the feature vector for each pat
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
 *tBodyAcc-XYZ
+
 *tGravityAcc-XYZ
+
 *tBodyAccJerk-XYZ
+
 *tBodyGyro-XYZ
+
 *tBodyGyroJerk-XYZ
+
 *tBodyAccMag
+
 *tGravityAccMag
+
 *tBodyAccJerkMag
+
 *tBodyGyroMag
+
 *tBodyGyroJerkMag
+
 *fBodyAcc-XYZ
+
 *fBodyAccJerk-XYZ
+
 *fBodyGyro-XYZ
+
 *fBodyAccMag
+
 *fBodyAccJerkMag
+
 *fBodyGyroMag
+
 *fBodyGyroJerkMag
+
 
 The set of variables that were estimated from these signals are: 
 
 *mean(): Mean value
+
 *std(): Standard deviation
+
 
 Values provided in the dataset are averages of each variable based on subject and activity
